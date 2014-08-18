@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- ==============================================
+		Title and basic Metas
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>BoxIT - Send me THE BOX!</title>
+		<meta name="description" content="BoxIT">
+		<meta name="author" content="BoxIT">
+
+		<!-- ==============================================
+		Mobile Metas
+		=============================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css"/>
+		<link rel="stylesheet" href="css/style_enterprise_general.css">
+		<link rel="stylesheet" href="css/style-responsive.css">
+		<link rel="stylesheet" href="css/blue.css">
+        <link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons.css">
+		<link type="text/css" rel="stylesheet" href="font-icons/custom-icons/css/custom-icons-ie7.css">
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+		<![endif]-->
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Lato|Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/modernizr.js"></script>
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<!--<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+		
+	</head>
+	<body id="top" class="fixed-nav">
+
+		<!-- ==============================================
+		Header
+		=============================================== -->
+		<section class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+
+						<!-- ==============================================
+						Logo
+						=============================================== -->
+						<div class="logo float-left">
+                            <a href="#top">
+                                <img src="images/boxitlogo_v2.png" alt="Logo">
+                            </a>
+                        </div>
+						<!-- End Logo 
+						=============================================== -->
+
+						<!-- ==============================================
+						Navigation
+						=============================================== -->
+						<ul class="nav hidden-xs hidden-sm">
+							<li><a href="#top">Home</a></li>
+							<li><a href="#features">Features</a></li>
+							<li><a href="#plans">Plans</a></li>
+							<li><a href="#testimonials">User Stories</a></li>
+						</ul>
+						<!-- End Navigation 
+						=============================================== -->
+
+						<!-- ==============================================
+						Mobile Navigation
+						=============================================== -->
+						<form name="nav" class="float-right">
+				         	<select class="mobile-nav hidden-md hidden-lg" data-autogenerate="true"></select>
+				        </form>
+				        <!-- End Mobile Navigation 
+						=============================================== -->
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Header 
+		=============================================== -->
+
+		<!-- ==============================================
+		Teaser
+		=============================================== -->
+		<section class="teaser">
+			<div class="container">
+				<div class="row">
+
+					<!-- ==============================================
+					Slider
+					=============================================== -->
+					<div class="col-sm-7 col-sm-offset-5">
+						<div class="flexslider">
+						 	<ul>
+							    <li>
+							      	<img src="images/box1.png" alt=""/>
+							    </li>
+							    <!--<li>
+							      	<img src="http://placehold.it/700x410/f1f1f1" alt=""/>
+							    </li>
+							    <li>
+							      	<img src="http://placehold.it/700x410/f1f1f1" alt=""/>
+							    </li>-->
+						  	</ul>
+                            <div class="black-trans all-padding no-bottom-margin">
+                            <h2 class="no-top-margin no-bottom-margin">We handle the rest!</h2>
+						<p class="no-bottom-margin">Delivering the results you need and want along with recommendations that should save you time, increase your wealth and provide services for your pleasure!</p>
+</div>
+						</div>
+					</div>
+					<!-- End Slider
+					=============================================== -->
+
+				</div>
+			</div>
+		</section>
+		<!-- End Teaser 
+		============================================== -->
+
+		<!-- ==============================================
+		Intro
+		=============================================== -->
+		<section class="intro white-background">
+			<div class="container">
+				<div class="row">
+
+					<!-- ==============================================
+					Featured Box
+					=============================================== -->
+					<div class="col-sm-4 featured featured-slider">	
+						<h2 class="feature-title">Subscribe now</h2>
+						<form action="send-mail.php" method="post" class="contact-form">
+							<p>Don’t miss this opportunity, subscribe and try BoxIT now!</p>
+							<input type="text" placeholder="Name" name="name" class="required">
+							<input type="text" placeholder="Email" name="email" class="required contact-form-email">
+							<input type="text" placeholder="Phone" name="phone" class="required">
+							<input type="text" placeholder="Address line 1:" name="address" class="required">
+                            <input type="text" placeholder="Address line 2:" name="address2" class="required">
+                            <input type="text" placeholder="Zip Code:" name="zip" class="required">
+							<div class="checkbox-container">
+								<input type="checkbox" name="agree" id="agree" class="required">
+								<div class="checkbox-placeholder"></div>
+								<label for="agree" class="label-checkbox">
+									Yes, I would like to subscribe and I accept the <a href="">Terms and Conditions</a>. We will not forward your email address to any third party.
+								</label>
+							</div>
+							<div class="response-message"></div>
+							<input type="submit" name="sendmethebox" value="SEND ME THE BOX!">
+						</form>
+					</div>
+					<!-- End Featured Box
+					=============================================== -->
+
+					<div class="col-sm-7 col-sm-offset-1">
+                    <div class="left-margin">
+						<h2 class="no-top-margin">We organize your information to simplify your life!</h2>
+						<p>
+										BoxIT features a network of highly trained Integration Specialists who provide executive level attention to our subscribers.  These service professionals personally learn your wants, needs and goals, in order to provide you with solutions and results.</p>
+
+<p>Our personalization engine for delivering data, information, knowledge and wisdom, applied to the unique needs and applications of our subscribers is world class.
+										</p>
+					</div></div>
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Intro 
+		============================================== -->
+
+		<!-- ==============================================
+		Features
+		=============================================== -->
+		<section class="features light-gray-background" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="no-bottom-margin">Features and Services</h2>
+					</div>
+				</div>
+				<div class="row top-margin">
+
+					<!-- ==============================================
+					First Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-doc-text"></i>
+						</div>
+                       <div class="leftmargin"><h3>Digital Expense Report</h3></div>
+						<p>We scan receipts, export data to PDF or Excel Expense Report templates and email the report directly to you.</p>
+					</div>
+					<!-- End First Feature 
+					============================================== -->
+
+					<!-- ==============================================
+					Second Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-users"></i>
+						</div>
+                       <div class="leftmargin"><h3>Contact Management</h3></div>
+						<p>Scan business cards and sync with Outlook, Plaxo or Mac Address Book.</p>
+					</div>
+					<!-- End Second Feature 
+					============================================== -->
+                    
+					<!-- ==============================================
+					Third Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-user-md"></i>
+						</div>
+                       <div class="leftmargin"><h3>Manage Health Care Records</h3></div>
+						<p>Maintain medical records, insurance forms and prescriptions.</p>
+					</div>
+					<!-- End Third Feature 
+					============================================== -->
+					</div>
+					<div class="row">
+
+					<!-- ==============================================
+					Fourth Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-doc-text-inv"></i>
+						</div>
+                       <div class="leftmargin"><h3>Organize your Tax Documents</h3></div>
+						<p>Assign tax categories to receipts and other tax documents and create PDF tax reports.</p>
+					</div>
+					<!-- End Fourth Feature 
+					============================================== -->
+
+					<!-- ==============================================
+					Fifth Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-th"></i>
+						</div>
+                       <div class="leftmargin"><h3>Document Management</h3></div>
+						<p>Scan and organize invoices, contracts, warranties, and manuals.</p>
+					</div>
+					<!-- End Fifth Feature 
+					============================================== -->
+                    
+                    <!-- ==============================================
+					Sixth Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-picture"></i>
+						</div>
+                       <div class="leftmargin"><h3>Preserve Memories</h3></div>
+						<p>Scan in your children's artwork, report cards, and school paperwork; store family recipes and documents.</p>
+					</div>
+					<!-- End Sixth Feature 
+					============================================== -->
+
+				</div>
+                <div class="row">
+
+					<!-- ==============================================
+					Seventh Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-dollar"></i>
+						</div>
+                       <div class="leftmargin"><h3>Financial Management</h3></div>
+						<p>Scan and organize financial documents and run reports to track spending.</p>
+					</div>
+					<!-- End Seventh Feature 
+					============================================== -->
+
+					<!-- ==============================================
+					Eighth Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-shield"></i>
+						</div>
+                       <div class="leftmargin"><h3>Protect Against Natural Disasters</h3></div>
+						<p>Maintain records of purchases for insurance purposes in case of burglary, fire, or flood.</p>
+					</div>
+					<!-- End Eighth Feature 
+					============================================== -->
+                    
+                    <!-- ==============================================
+					Ninth Feature
+					=============================================== -->
+					<div class="col-sm-4 feature">
+						<div class="icon-container">
+							<i class="fa icon-globe"></i>
+						</div>
+                       <div class="leftmargin"><h3>Be Kind to Planet Earth</h3></div>
+						<p>Scan it and recycle - what's really valuable is the information on the paper, not the paper itself.</p>
+					</div>
+					<!-- End Ninth Feature 
+					============================================== -->
+
+				</div>
+			</div>
+		</section>
+		<!-- End Features 
+		============================================== -->
+
+		<!-- ==============================================
+		Hero Section
+		=============================================== -->
+		<section class="color-background hero-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9 hero-text">
+						<h2>Subcribe and recieve your free box now!</h2>
+					</div>
+					<div class="col-sm-3">
+						<a href="#" class="button-dark">Try it now!</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Hero Section 
+		============================================== -->
+
+		
+
+		<!-- ==============================================
+		Plans
+		=============================================== -->
+		<section class="white-background plans" id="plans">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="no-bottom-margin">Discover our Plans</h2>
+						<h4>Find the right plan for you.</h4>
+					</div>
+				</div>
+				<div class="row">
+				
+
+					<!-- ==============================================
+					First Plan
+					=============================================== -->
+					<div class="col-sm-4">
+						<div class="plan">
+							<div class="plan-title2">Personal</div>
+							<div class="plan-row price-row">
+								<span class="hidden-info">Price</span>
+								<span class="plan-price">$20</span> /mo.
+							</div>
+							<div class="plan-row">
+								Preserving Memories/Sharing Legacies
+							</div>
+							<div class="plan-row">
+							Tracking Spending
+							</div>
+							<div class="plan-row">
+								Itemizing tax information
+							</div>
+							<div class="plan-row">
+							Finance Tracking
+							</div>
+							<div class="plan-row">
+								Estate Planning
+							</div>
+							<div class="plan-row">
+								Manage, Accumulate and Transfer Wealth
+							</div>
+							<div class="plan-row button-row">
+								<a href="">SEND ME THE BOX!</a>
+							</div>
+						</div>
+					</div>
+					<!-- End First Plan
+					============================================== -->
+
+					<!-- ==============================================
+					Second Plan
+					=============================================== -->
+					<div class="col-sm-4">
+						<div class="plan">
+							<div class="plan-title2">Small Businesss</div>
+							<div class="plan-row price-row">
+								<span class="hidden-info">Price</span>
+								<span class="plan-price">$20</span> /mo.
+							</div>
+							<div class="plan-row">
+								Automated reminders
+							</div>
+							<div class="plan-row">
+								Invoice Management
+							</div>
+							<div class="plan-row">
+								Time and Data Tracking
+							</div>
+							<div class="plan-row">
+								Inventory Control
+							</div>
+							<div class="plan-row">
+								&nbsp;
+							</div>
+							<div class="plan-row">
+								&nbsp;
+							</div>
+							
+							<div class="plan-row button-row">
+								<a href="">SEND ME THE BOX!</a>
+							</div>
+						</div>
+					</div>
+					<!-- End Second Plan
+					============================================== -->
+
+					<!-- ==============================================
+					Third Plan
+					=============================================== -->
+					<div class="col-sm-4">
+						<div class="plan">
+							<div class="plan-title">Enterprise</div>
+							<div class="plan-row price-row">
+								<span class="hidden-info">Price</span>
+								<span class="plan-price">$20</span> /mo.
+							</div>
+							<div class="plan-row">
+								Digital Marketing/Public Relations
+							</div>
+							<div class="plan-row">
+								Top Level Secure Cloud Storage
+							</div>
+							<div class="plan-row">
+								Developing Business Intelligence
+							</div>
+							<div class="plan-row">
+								Employee Accountability/Tracking
+							</div>
+							<div class="plan-row">
+								&nbsp;
+							</div>
+							<div class="plan-row">
+								&nbsp;
+							</div>
+							
+							<div class="plan-row button-row">
+								<a href="">SEND ME THE BOX!</a>
+							</div>
+						</div>
+					</div>
+					<!-- End Third Plan
+					============================================== -->
+
+				</div>
+			</div>
+		</section>
+		<!-- End Plans
+		============================================== -->
+<!-- ==============================================
+
+		Empty Section
+
+		=============================================== -->
+
+		<section class="empty-section">
+
+			<div class="container">
+
+				<div class="row">
+
+
+
+					
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- End Empty Section
+
+		============================================== -->
+		<!-- ==============================================
+		Testimonials
+		=============================================== -->
+		<section class="testimonials gray-background" id="testimonials">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="no-bottom-margin">User Stories</h2>
+						<h4>How people use our services to help them.</h4>
+					</div>
+
+					<!-- ==============================================
+					First Testimonial
+					=============================================== -->
+					<div class="col-md-6 testimonial">
+						<div class="bubble">
+							Newlyweds Alicia and John are merging their lives and files together. They need help determining the projected cost of living of after having their first child while saving up to buy a home.
+						</div>
+						<div class="person">
+							<img src="images/alicejohn.jpg" alt="Alicie and Johng" class="float-left">
+							<h3 class="no-bottom-margin">Alicia and John</h3>
+							<h4>Newlyweds</h4>
+						</div>
+					</div>
+					<!-- End First Testimonial
+					============================================== -->
+
+					<!-- ==============================================
+					Second Testimonial
+					=============================================== -->
+					<div class="col-md-6 testimonial">
+						<div class="bubble">
+							After a year spend off from school Megan has decided to leave home and invest in a college education. She has little experience in managing money and records and would like to start her.
+						</div>
+						<div class="person">
+							<img src="images/megan.jpg" alt="" class="float-left">
+							<h3 class="no-bottom-margin">Megan</h3>
+							<h4>College Student</h4>
+						</div>
+					</div>
+					<!-- End Second Testimonial
+					============================================== -->
+
+
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials
+		============================================== -->
+
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<section class="footer dark-gray-background">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="no-bottom-margin">BoxIT<br>
+					
+						1.805.335.4842<br>
+					</p>			
+					</div>
+					<!-- ==============================================
+					Social
+					=============================================== -->
+					<div class="col-sm-6">
+						<ul class="social float-right">
+							<li><a href="https://plus.google.com/104892167422697441676/posts"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="https://twitter.com/BoxItBob"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/people/Box-It-Bob/100008197922713"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="hhttp://www.pinterest.com/boxitbob/"><i class="fa fa-pinterest"></i></a></li>
+						</ul>
+                        
+						<p class="no-bottom-margin float-right copyright">Copyright &copy; 2014 <a href="http://goboxit.com">BoxIT</a>. All rights reserved</p>
+					</div>
+					<!-- End Social
+					============================================== -->
+				</div>
+			</div>
+		</section>
+		<!-- End Footer
+		============================================== -->
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script type="text/javascript" src="js/attraction.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-53887903-1', 'auto');
+		  ga('send', 'pageview');
+		
+		</script>
+	</body>
+</html>
